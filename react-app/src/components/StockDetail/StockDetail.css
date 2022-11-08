@@ -1,0 +1,252 @@
+.stock-detail-container {
+    /* display: grid;
+    padding-left: 1rem;
+    padding-right: 1rem; */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+
+}
+
+.parent-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin-top: -6rem;
+}
+
+.buy-sell-container {
+    background-color: rgb(30, 33, 36);
+    border-radius: 10px;
+    border-color: rgb(176, 176, 176);
+    border-width: 0.1rem;
+    border-style: solid;
+    width: 10rem;
+    min-height: 10rem;
+    height: fit-content;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#trade-tag {
+    display: flex;
+    justify-content: center;
+}
+
+
+.buy-sell-btns {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: .5rem;
+}
+
+.left-container {
+    /* background-color: red; */
+    padding: 5rem;
+}
+
+
+.key-statistics {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.key-container p {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.about-container {
+    display: grid;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.about-inner {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.about-inner>div {
+    padding-right: 3rem;
+}
+
+.item-title {
+    font-weight: bolder;
+    font-size: medium;
+}
+
+.item-info {
+    font-weight: lighter;
+    font-size: small;
+}
+
+.positiveNum {
+    color: rgb(3, 200, 5);
+}
+
+.negativeNum {
+    color: rgb(255, 80, 0);
+}
+
+.after-hours {
+    color: lightgray;
+    font-size: x-small;
+    font-style: italic;
+    padding-left: .3rem;
+}
+
+.price-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.buy-sell-input {
+    padding: 6px 12px;
+    background: rgb(31, 32, 35);
+    border: 1px solid rgb(60, 63, 68);
+    border-radius: 4px;
+    font-size: 13px;
+    color: rgb(247, 248, 248);
+    height: 20px;
+    appearance: none;
+    transition: border 0.15s ease 0s;
+}
+
+.buy-sell-input::placeholder {
+    display: none;
+}
+
+.buy-sell-input:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: rgb(3, 200, 5);
+}
+
+.buy-sell-input::-webkit-outer-spin-button,
+.buy-sell-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+#buy-btn {
+    width: 75px;
+    height: 36px;
+    border-radius: 25px;
+    font-weight: 600;
+    background-color: #5AC53B;
+    border: 1px solid #5AC53B;
+    color: #1E2124
+}
+
+#buy-btn:disabled {
+    display: none;
+}
+
+#buy-btn:hover {
+    color: #fff;
+    background-color: rgb(3, 200, 5);
+    border-color: rgb(3, 200, 5);
+}
+
+#sell-btn {
+    width: 75px;
+    height: 36px;
+    border-radius: 25px;
+    font-weight: 600;
+    background-color: rgb(255, 80, 0);
+    border: 1px solid rgb(255, 80, 0);
+    color: #1E2124
+}
+
+#sell-btn:disabled {
+    display: none;
+}
+
+#sell-btn:hover {
+    color: #fff;
+    background-color: rgb(255, 80, 0);
+    border-color: rgb(255, 80, 0);
+}
+
+.testBtn {
+    /* padding-top: 18.5rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    /* z-index: -1; */
+}
+
+
+
+.right-inner-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10rem;
+}
+
+.sold-shares-content{
+    margin-top: 1rem;
+    border: 1px solid #AEAEAE;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* .analyst-rating-container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.recommend-buy p {
+    color: rgb(3, 200, 5);
+}
+
+.recommend-sell p {
+    color: rgb(255, 80, 0);
+}
+
+.recommend-hold p {
+    color: rgb(3, 200, 5);
+}
+
+.reco-circle {
+    margin-top: 30px;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#inside-circle {
+    padding: 0rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+#inside-circle-2 {
+    padding: 0rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.circle-inner-contain {
+    display: flex;
+} */

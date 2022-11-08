@@ -1,0 +1,538 @@
+.main-container-dash {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.outer-left-container {
+    display: flex;
+    flex-direction: column;
+    width: 690px;
+    max-width: 690px;
+}
+
+.outer-right-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#portfolio-value-cont {
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-weight: 500;
+    font-size: 30px
+}
+
+#period-dash-graph {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: #5AC53B;
+    font-weight: 600;
+}
+
+.line-break-dashboard {
+    border: 0;
+    border-top: 1px solid rgb(48, 54, 58);
+    width: 690px;
+}
+
+.portfolio-buying-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+#buying-power-header {
+    font-weight: 600;
+}
+
+.trending-list-main-container{
+    margin-top: 40px;
+}
+
+#trending-list-header {
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.trending-list-button {
+    width: fit-content;
+    background-color: black;
+    color: white;
+    border: 1px solid rgb(48, 54, 58);
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    max-height: 40px;
+    margin: 5px;
+}
+
+.trending-list-image-btn {
+    max-width: 2rem;
+    border-radius: 50px;
+}
+
+.trending-list-text-btn {
+    font-size: 14px;
+    padding-left: 5px;
+    text-decoration: none;
+}
+
+.trending-list-button-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.outer-right-container {
+    border: 1px solid #40494E;
+    width: 20%;
+    height: 789px;
+    max-width: fit-content;
+    margin-left: 3rem;
+    background-color: #1E2124;
+    border-radius: 5px;
+}
+
+.list-stocks-content {
+    list-style: none;
+    padding-left: 0px;
+    height: 400px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.list-stocks-content::-webkit-scrollbar {
+    width: 12px;
+    background-color: transparent;
+}
+
+.list-stocks-content::-webkit-scrollbar-button {
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+.list-stocks-content::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
+
+.list-stocks-content::-webkit-scrollbar-thumb {
+    background-color: #4a4d52;
+    border: 2px solid #282a2d;
+    border-radius: 10px;
+}
+
+#create-list-header-text {
+    display: flex;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+
+#create-list-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #40494E;
+    border-bottom: 1px solid #40494E;
+    width: 276px;
+    height: 46px;
+}
+
+#create-list-add-btn {
+    height: 43px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 25px;
+    margin-right: 1rem;
+}
+
+#create-list-add-btn:hover {
+    cursor: pointer;
+}
+
+.watchlist-form-container {
+    width: 276px;
+    height: 92px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.watchlist-button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    padding-top: 1rem;
+}
+
+#watchlist-input-form {
+    width: 160px;
+    height: 34px;
+    background-color: #30363A;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    padding-left: 1rem;
+    color: white;
+}
+
+.watchlist-button-form {
+    width: 96px;
+    height: 36px;
+    border-radius: 25px;
+    border: 1px solid #5AC53B;
+}
+
+.watchlist-button-form.create-buttn {
+    background-color: #5AC53B;
+    white-space: nowrap;
+    font-weight: 600;
+    color: #1E2124;
+    margin-left: 1rem;
+}
+
+.watchlist-button-form.cancel-buttn {
+    background-color: transparent;
+    white-space: nowrap;
+    font-weight: 600;
+    color: #5AC53B;
+    margin-right: 1rem;
+    border: 1px solid #5AC53B;
+}
+
+.watchlist-button-form:hover {
+    cursor: pointer;
+
+}
+
+.watchlist-dash-title {
+    margin-left: 13%;
+
+
+    font-weight: 600;
+
+    font-size: 15px;
+}
+
+.watchlist-headers-container {
+    width: 266px;
+    border-bottom: 1px solid #40494E;
+    padding-left: 10px;
+}
+
+.watchlist-dash-port-name {
+    margin-left: -10px;
+
+    padding:16px;
+
+    font-weight: 600;
+
+    font-size: 15px;
+}
+
+.watchlist-headers-container-extra {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 266px;
+    border-bottom: 1px solid #40494E;
+    border-top: 1px solid #40494E;
+    padding-left: 10px;
+}
+
+.stock-list-link-container {
+    text-decoration: none;
+    padding: 16px;
+    width: 88%;
+}
+
+.stock-list-link-container:hover {
+    background-color: #40494E;
+}
+
+.watchlist-stocks-linkable {
+    text-decoration: none !important;
+}
+
+.stock-inside-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.stock-title-header {
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+}
+
+.stock-title-price-cont {
+    display: flex;
+    color: white;
+    font-size: small;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2%;
+}
+
+.stock-list-link-container-portfolio {
+    margin-top: 5%;
+    text-decoration: none;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 228px;
+    height: 45px;
+}
+
+.watchlist-buttons-container-list {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.watchlist-buttons-indivial-btn {
+    width: 96px;
+    height: 36px;
+    border-radius: 25px;
+    font-weight: 600;
+}
+
+.watchlist-buttons-indivial-btn:hover {
+    cursor: pointer;
+}
+
+.watchlist-buttons-indivial-btn.delete-btn-list {
+    background-color: #FF5000;
+    border: 1px solid #FF5000;
+    color: #1E2124
+}
+
+.watchlist-buttons-indivial-btn.edit-btn-list {
+    background-color: transparent;
+    border: 1px solid #FF5000;
+    color: #FF5000
+}
+
+#modal-content {
+    background-color: #40494E;
+    height: 200px;
+    width: 250px;
+    border-radius: 15px;
+}
+
+.modal-edit-list-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: -30px;
+    margin-left: -30px;
+
+
+}
+
+#editinput-modal {
+    width: 178px;
+    background-color: #30363A;
+    border: 1px solid transparent;
+    border-radius: 15px;
+
+    color: white;
+    height: 32px;
+}
+
+#editlist-modal-header {
+    margin-bottom: 1rem;
+}
+
+.submitedit-btn-container {
+    padding-left: 1rem;
+}
+
+.submiteditbutton-modal {
+    margin-top: 15%;
+    width: 96px;
+    height: 36px;
+    border-radius: 25px;
+    font-weight: 600;
+    background-color: #5AC53B;
+    border: 1px solid #5AC53B;
+    color: #1E2124
+}
+
+.submiteditbutton-modal:hover {
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.loading-dash-container {
+    width: 100%;
+    display: flex;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.loading-dash-image {
+    border: 5px solid white;
+    border-radius: 10px;
+    width: 1280px;
+    height: 800px;
+    background-image: url("../../images/backgroundLoading.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading-dash-text {
+    font-size: 50px;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+.loading-dash-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 27rem;
+}
+
+.loading-dash-message {
+    color: black;
+    font-style: italic;
+    margin: 0px;
+    font-size: 15px;
+}
+
+.loading-dash-message-container {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-logo-alpha-loading {
+    width: 30%;
+    color: black;
+}
+
+#dashboard-port-update-text {
+    margin: 0px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    border: 1px solid #FF5000;
+    border-radius: 5px;
+    padding: 6px;
+    width: fit-content;
+    background-color: transparent;
+    color: #FF5000;
+}
+
+
+.stock-inside-content:hover {
+    /* background-color: rgb(3, 200, 5); */
+    color: rgb(42, 42, 42);
+    opacity: 0.7;
+}
+
+
+.stock-inside-content-container {
+    background-color: red;
+}
+
+
+.hidestocklist{
+    margin-right: 5%;
+    margin-top: 6%;
+}
+
+.news-article-outline{
+    text-decoration: none;
+}
+
+.news-article-outline > div:last-child{
+    padding-bottom: 10px;
+}
+
+.news-article-publisher-cont > p{
+    color: white;
+    font-weight: 600;
+}
+
+.news-article-main-cont{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.news-article-main-cont > div > h3{
+    font-size: 18px;
+}
+
+.news-article-main-cont > img{
+    border-radius: 10px;
+}
+
+.news-article-main-cont > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.news-article-related-ticks{
+    display: flex;
+    flex-direction: row;
+}
+
+.news-article-related-ticks > a{
+    font-weight: 600;
+    color: rgb(206, 203, 203);
+}
+
+.news-article-related-ticks > a:first-child{
+    margin-right: 15px;
+}
+
+.news-article-related-ticks > a:hover{
+    font-weight: 600;
+    color: #5AC53B;
+}

@@ -1,0 +1,202 @@
+.about-main {
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+    height: 100vh;
+    width: 105vw;
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+
+  }
+
+  .about-title {
+    margin-top: 30px;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 60px;
+    color: white;
+
+  }
+
+  .about-lower {
+    display: flex;
+    width: 50vw;
+    justify-content: space-between;
+  }
+
+  .about-left {
+    font-size: 24px;
+    width: 500px;
+    background-color: rgba(30, 33, 36, 0.800);
+    margin-right: 45px;
+    margin-top: 100px;
+    border-radius: 5px;
+    border: 1px solid #40494E;
+  }
+
+  .about-right {
+    border: 0.5px solid grey;
+    height: 40vh;
+    width: 300px;
+    background-color: rgba(30, 33, 36, 0.800);
+    border-radius: 6px;
+    overflow-y: auto;
+    overflow-x: none;
+    word-break: break-all;
+    position: -webkit-sticky;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    font-family: 'Raleway', sans-serif;
+
+  }
+
+  .linkedin {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .line-break-name-about{
+    border: 0.5px solid #40494E;
+  }
+
+  .linkedin-img {
+ max-height: 120px;
+ max-width: 120px;
+    border-radius: 4px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .linkedin-img:hover {
+   border: .5px rgb(255, 255, 255) solid;
+  }
+
+  .about-name {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 100;
+  }
+
+  .about-me {
+    display: flex;
+
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-bio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-weight: 400;
+  }
+
+  .about-fav-stock {
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+
+  .name-links {
+    width: calc(100% - 40px);
+    padding: 20px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+
+  .name-links:hover {
+    background-color: rgb(48, 54, 58);
+  }
+
+
+  .about-left-lower {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .aboutlink {
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+
+  }
+
+
+  .aboutlink:hover{
+    color: red;
+  }
+
+  .about-dev-bio{
+    text-align: center;
+    width: 400px;
+    font-size: 20px;
+
+  }
+
+  .line-break-fav-stock{
+    margin: 0px;
+    width: 500px;
+    border: 0.5px solid #40494E;
+  }
+
+
+  #code-box{
+    width: 300px;
+    height: 350px;
+    background-color: #ccc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+  }
+
+  #code-section{
+    width: 300px;
+    height: 340px;
+    background-color: #383737;
+  }
+
+  #code-box-content{
+    width: 260px;
+    height: 300px;
+    padding: 20px;
+    font-size: 18px;
+    font-family: 'Space Mono', monospace;
+  }
+
+  #fav-activity-term{
+    font-size: 15px;
+    color: #CCCCCC;
+    margin-left: 15px;
+  }
