@@ -70,7 +70,7 @@ For this project we use YFinance to pull Yahoo Finance real time updates, to mak
 ```
 
 # Downloading the App & Getting Started
-1. Clone [https://github.com/israel-arvizu/AlphaHood](https://github.com/elisaia55/AlphaHood)
+1. Clone [https://github.com/elisaia55/AlphaHood]
 2. pipenv install --dev -r dev-requirements.txt && pipenv install -r requirements.txt
 3. Setup your PostgreSQL user, password and database and make sure it matches your .env file
 4. Add an ``.env`` file and update with the required information, look at ``.env-example`` for infomation
